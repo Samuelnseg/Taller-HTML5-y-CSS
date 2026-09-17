@@ -10,16 +10,65 @@
   <header>Pagina super wow de ciclas</header> 
   <nav>
     <a href="#inicio">Inicio</a>
-    <a href="#servicios">Servicios</a>
+    <a href="#productos">Productos</a>
     <a href="#nosotros">Nosotros</a>
     <a href="#contacto">Contacto</a>
   </nav>
   <main> 
-    <section id="inicio">Aca podemos ver la gama de ciclas que se ofrecen</section> 
-    <section id="servicios">Aca podemos ver los servicios que ofrecemos</section> 
-    <section id="nosotros">Aca podemos ver la información sobre nosotros</section> 
-    <section id="contacto">Aca podemos ver los datos de contacto</section> 
+    <section id="inicio">
+      <h2>Gama de Ciclas</h2>
+      <p>Aca podemos ver la gama de ciclas que se ofrecen</p>
+    </section> 
+
+    <section id="productos">
+      <h2>Nuestras bicicletas</h2>
+
+      <article>
+        <h3>Bicicleta de ruta</h3>
+        <p>Ideal para recorridos largos y velocidad.</p>
+      </article>
+
+      <article>
+        <h3>Bicicleta MTB</h3>
+        <p>Diseñada para terrenos montañosos y caminos difíciles.</p>
+      </article>
+
+      <article>
+        <h3>Bicicleta urbana</h3>
+        <p>Perfecta para desplazamientos dentro de la ciudad.</p>
+      </article>
+    </section> 
+
+    <section id="nosotros">
+      <h2>Nosotros</h2>
+      <p>Somos una empresa que ofrece bicis para lo que necesites, desde lo mas basico hasta lo mas sotisficado</p>
+    </section> 
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Aca pedimos los datos de contacto</p>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" opcional>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" required></textarea>
+
+        <label for="aceptacion">
+          <input type="checkbox" id="aceptacion" required>
+          Acepto la política de privacidad
+        </label>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section> 
   </main> 
-  <footer>Que miras?</footer> 
+  <footer>Gracias por visitarnos</footer> 
 </body> 
 </html> 
